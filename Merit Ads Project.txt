@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merit Ads - Get Facebook Leads</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <header>
+    <img src="./Downloads/Merit Ads Logo (2).png" alt="Merit Ads Logo" width="150" height="150">
+    <h1>Merit Ads</h1>
+    <nav>
+      <ul>
+        <li><a href="https://merit-ads.com">Home</a></li>
+        <li><a href="#why-choose-merit-ads">Why Choose Merit Ads?</a></li>
+        <li><a href="#contact-merit-ads">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p>Struggling to generate leads for your business on Facebook? Merit Ads is here to help!</p>
+    <p>We specialize in creating high-converting Facebook ad campaigns that bring qualified leads straight to your door.</p>
+    <ul>
+      <li><strong>Targeted Advertising:</strong> Reach the right audience for your business.</li>
+      <li><strong>Creatives:</strong> Capture attention and generate interest.</li>
+      <li><strong>Conversion Optimization:</strong> Turn clicks into leads.</li>
+      <li><strong>Measurable Results:</strong> Track your campaign's performance and maximize ROI.</li>
+    </ul>
+    <img src="./Downloads\merit ads website body image of people.jpg" alt="Merit Ads Image" width="800" height="500">
+
+    <center><a href="https://forms.gle/bBWYeP9aksQHCVMYA" class="get-started-btn">Get Started Now</a></center>
+
+    <h2 id="why-choose-merit-ads">Why Choose Merit Ads?</h2>
+    <p>We understand the challenges of lead generation on Facebook. Here's what sets us apart:</p>
+    <ul>
+      <li><strong>Genuine & Converting Leads:</strong> We focus on attracting qualified leads most likely to convert into customers.</li>
+      <li><strong>Honesty & Transparency:</strong> We keep you informed throughout the campaign and provide clear results.</li>
+      <li><strong>Affordability:</strong> We offer competitive pricing plans to suit your budget.</li>
+      <li><strong>Proven Track Record:</strong> We have a history of success in helping businesses achieve their lead generation goals.</li>
+      <li><strong>Dedicated Support:</strong> Our team is here to answer your questions and provide ongoing support.</li>
+    </ul>
+
+    <img src=".\Downloads\merit ads website body image 1.jpg" alt="Merit Ads Website Image 2" width="850" height="450">
+
+    <center><a href="https://forms.gle/bBWYeP9aksQHCVMYA" class="get-started-btn">Get Started Now</a></center> 
+    
+    <h2 id="contact-merit-ads">Contact Merit Ads Now</h2>
+    <p>Ready to take your Facebook lead generation to the next level? Fill out the form below and we'll be in touch to discuss your specific needs.</p>
+    <p><b><i>Please ensure you enter a valid email address so we can connect with you.</i></b></p>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJFAL06XFg92rd-PuCsoSw8Tq8mLammQNxguzX2dKGJfdlQw/viewform?embedded=true" width="640" height="1959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <center><a href="https://forms.gle/bBWYeP9aksQHCVMYA" class="get-started-btn">Get Started Now</a></center>  
+  </main>
+
+  <footer>
+    <p>&copy; Merit Ads 2024</p>
+  </footer>
+</body>
+</html>

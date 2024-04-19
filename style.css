@@ -1,0 +1,157 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text color */
+    font-size: 20;
+  }
+  
+  /* Ensured semicolons are present at the end of rules */
+  
+  /* Header */
+  header {
+    background-color: transparent;
+    color: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+    text-align: center;
+    color: #F08080; /* Pink heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  }
+  
+  /* H2 Styles (Increased Specificity and Creative Effects) */
+  #why-choose-merit-ads,
+  #contact-merit-ads {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8em; /* Increase font size slightly */
+    text-decoration: underline; /* Underline for emphasis */
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #00FF00; /* Dual color text shadow */
+    transition: text-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  #why-choose-merit-ads:hover,
+  #contact-merit-ads:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 10px #00FF00; /* Enhance text shadow on hover */
+  }  
+  /* Navigation Bar Styling */
+  nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: inherit; /* Inherit text color from body */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav li a:hover {
+    color: #32CD32; /* Green on hover */
+  }
+  
+  /* Creative List Styling (Replace with your preferred icons) */
+  .creative-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .creative-list li {
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #333; /* Darker gray background */
+    color: #eee; /* Light gray text */
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out; /* Smooth background transition */
+  }
+  
+  .creative-list li:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff; /* White circle */
+    position: absolute;
+    top: -5px; /* Position above list item */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  .creative-list li:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #ddd; /* Light gray line */
+    z-index: -2;
+  }
+  
+  .creative-list li:first-child:after {
+    display: none;
+  }
+  
+  .creative-list li.active,
+  .creative-list li:hover {
+    background-color: #444; /* Even darker hover background */
+    color: #fff; /* White text on hover */
+  }
+  
+  /* Paragraphs */
+  p {
+    line-height: 1.5;
+    color: inherit; /* Inherit text color from body */
+    font
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .get-started-btn {
+    background-color: #3C8DBC; /* Blue from logo (can be changed) */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #2969AF; /* Darken blue on hover */
+  }
+  
+  /* Bold Text Color */
+  strong,
+  b {
+    color: #00CCFF;
+  
