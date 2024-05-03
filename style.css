@@ -5,7 +5,15 @@ body {
     padding: 0;
     background-color: #222; /* Dark background */
     color: #fff; /* White text color */
-    font-size: 20;
+    margin: 0 auto;
+  }
+  
+  p, h1, h2 {
+    font-size: 28px;
+  }
+  
+  ul li {
+    font-size: 25px; /* Adjust to your desired size */
   }
   
   /* Ensured semicolons are present at the end of rules */
@@ -20,6 +28,13 @@ body {
     align-items: center;
   }
   
+  #main-content-wrapper {
+    margin: 0 auto; /* Center horizontally */
+    width: 800px; /* Set your desired content width */
+    padding: 20px; /* Add optional padding for spacing */
+  }
+  
+
   h1 {
     margin-bottom: 0;
     text-align: center;
