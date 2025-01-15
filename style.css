@@ -1,172 +1,254 @@
 /* Basic Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #222; /* Dark background */
-    color: #fff; /* White text color */
-    margin: 0 auto;
-  }
-  
-  p, h1, h2 {
-    font-size: 28px;
-  }
-  
-  ul li {
-    font-size: 25px; /* Adjust to your desired size */
-  }
-  
-  /* Ensured semicolons are present at the end of rules */
-  
-  /* Header */
-  header {
-    background-color: transparent;
-    color: inherit;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #main-content-wrapper {
-    margin: 0 auto; /* Center horizontally */
-    width: 800px; /* Set your desired content width */
-    padding: 20px; /* Add optional padding for spacing */
-  }
-  
+  font-family: Arial, sans-serif;
+  font-size: 22px !important;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto; /* Center the body */
+  padding: 0;
+  background-color: #1d1c1c; /* Dark background */
+  color: #fff; /* White text color */
+  max-width: 1200px; /* Restrict the max width of the page */
+  padding-left: 30px; /* Add padding on left */
+  padding-right: 30px; /* Add padding on right */
+}
 
-  h1 {
-    margin-bottom: 0;
-    text-align: center;
-    color: #F08080; /* Pink heading */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-  }
-  
-  /* H2 Styles (Increased Specificity and Creative Effects) */
-  #why-choose-merit-ads,
-  #contact-merit-ads {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 1.8em; /* Increase font size slightly */
-    text-decoration: underline; /* Underline for emphasis */
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #00FF00; /* Dual color text shadow */
-    transition: text-shadow 0.3s ease-in-out; /* Smooth transition on hover */
-  }
-  
-  #why-choose-merit-ads:hover,
-  #contact-merit-ads:hover {
-    text-shadow: 0 0 5px #FF0000, 0 0 10px #00FF00; /* Enhance text shadow on hover */
-  }  
-  /* Navigation Bar Styling */
-  nav {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav li a {
-    color: inherit; /* Inherit text color from body */
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  nav li a:hover {
-    color: #32CD32; /* Green on hover */
-  }
-  
-  /* Creative List Styling (Replace with your preferred icons) */
-  .creative-list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 60%;
-  }
-  
-  .creative-list li {
-    position: relative;
-    text-align: center;
-    padding: 15px;
-    border-radius: 5px; /* Rounded corners */
-    background-color: #333; /* Darker gray background */
-    color: #eee; /* Light gray text */
-    margin: 0 10px;
-    transition: background-color 0.3s ease-in-out; /* Smooth background transition */
-  }
-  
-  .creative-list li:before {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff; /* White circle */
-    position: absolute;
-    top: -5px; /* Position above list item */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-  }
-  
-  .creative-list li:after {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 2px;
-    background-color: #ddd; /* Light gray line */
-    z-index: -2;
-  }
-  
-  .creative-list li:first-child:after {
-    display: none;
-  }
-  
-  .creative-list li.active,
-  .creative-list li:hover {
-    background-color: #444; /* Even darker hover background */
-    color: #fff; /* White text on hover */
-  }
-  
-  /* Paragraphs */
-  p {
-    line-height: 1.5;
-    color: inherit; /* Inherit text color from body */
-    font
-  }
-  
-  /* Images */
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  /* Buttons */
-  .get-started-btn {
-    background-color: #3C8DBC; /* Blue from logo (can be changed) */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    text-decoration: none;
-  }
-  
-  .get-started-btn:hover {
-    background-color: #2969AF; /* Darken blue on hover */
-  }
-  
-  /* Bold Text Color */
-  strong,
-  b {
-    color: #00CCFF;
-  
+/* Header */
+header {
+  background-color: transparent;
+  color: inherit;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto; /* Ensures header is centered */
+}
+
+/* Main Content Wrapper */
+#main-content-wrapper {
+  margin: 0 auto; /* Center horizontally */
+  width: 100%; /* Use full width */
+  max-width: 1000px; /* Set a max-width */
+  padding: 20px;
+  text-align: center; /* Center align all text inside */
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+  color: #F08080; /* Pink heading */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Navigation Bar Styling */
+nav {
+  display: flex;
+  justify-content: center; /* Center align nav items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  color: inherit; /* Inherit text color from body */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #32CD32; /* Green on hover */
+}
+
+/* Creative List Styling */
+.creative-list {
+  display: flex;
+  justify-content: center; /* Center align list items */
+  margin: 0 auto;
+  width: 80%; /* Adjust the width */
+}
+
+.creative-list li {
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.get-started-btn {
+  background-color: #3C8DBC; /* Blue from logo (can be changed) */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background-color: #2969AF; /* Darken blue on hover */
+}
+
+/* Bold Text Color */
+strong,
+b {
+  color: #00CCFF;
+}
+
+/* FAQ Section Container */
+#faq {
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2); /* Subtle white glow */
+}
+
+/* Individual FAQ Items */
+.faq-item {
+  margin-bottom: 15px;
+}
+
+/* FAQ Question Styling */
+.faq-question {
+  cursor: pointer;
+  color: #fff; /* White text */
+  font-size: 18px;
+}
+
+.faq-question:hover {
+  text-decoration: underline;
+  color: #ff4500; /* Highlighted orange text on hover */
+}
+
+/* FAQ Answer Styling */
+.faq-answer {
+  margin: 5px 0 0 10px;
+  color: #ccc; /* Light gray for better contrast with black background */
+  font-size: 16px;
+}
+
+.faq-question:hover {
+  text-decoration: underline;
+  color: #ff4500; /* Highlight color */
+  text-shadow: 0 0 5px #ff4500; /* Glowing effect */
+}
+
+.faq-answer {
+  color: white; /* Sets the text color to white */
+  background-color: black; /* Optional: Add contrast with a black background */
+  padding: 10px; /* Optional: Adds some padding for better readability */
+  border-radius: 5px; /* Optional: Rounds the corners of the box */
+}
+
+/* When the answer is visible */
+.faq-answer.show {
+  max-height: 200px; /* Set a maximum height for animation */
+  opacity: 1;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+  display: none; /* Initially hidden */
+  z-index: 1000; /* Ensures it appears above other elements */
+}
+
+#backToTop:hover {
+  background-color: #555; /* Change color on hover */
+}
+
+.divider {
+  height: 2px;
+  background-color: #f8f7f7;
+  margin: 40px 0;
+}
+
+/* Modal Styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  color: #1d1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.modal-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.modal-btn:hover {
+  background-color: #0056b3;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+button {
+  background-color: #051322;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  justify-self: left;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
